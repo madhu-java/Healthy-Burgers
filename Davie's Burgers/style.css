@@ -1,0 +1,96 @@
+ /* universal styles*/
+ body {
+   text-align: center;
+   font-family: 'Roboto' , sans-serif;
+   font-size: 18px;;
+ }
+ a{
+   text-decoration: none;;
+ }
+ /*Navigation*/
+
+ nav span {
+   display: block;
+  margin: 10px 0;
+  
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+ }
+ nav a{
+  color: #83e283;
+ }
+  nav h1 {
+
+    color: #21b121;
+    
+  }
+  .content {
+    width: 100%;
+    height: 500px;
+    margin: 10px 0;
+    overflow:scroll;
+  }
+  /* content header*/
+  .header {
+    background-image: url('./resources/Images/burger.jpg');
+    background-position: center;
+    background-size: cover;
+    height:400px;
+  }
+  .header h1 {
+    background-color:#21b121;
+    color: #fff;
+    padding: 20px 0;
+    width: 700px;
+    margin: 0 auto;
+  }
+  /*Content body*/
+  .content .body {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .body p {
+    color: #666;
+    font-weight: 10;
+   margin-top: 10px;
+   line-height: 34px;
+
+  }
+  .button {
+    background-color: #e43636;
+    color: #fff;
+    padding: 20px 10px;
+    border-radius: 5;
+    margin: 20px 0;
+    display: inline-block;
+  }
+  .button:hover {
+    background-color: darkred;
+    color:#fff;
+  }
+
+  ul.nutrition  {
+    list-style: none;
+    padding: 0;
+    margin:0;
+
+  }
+  .nutrition li {
+    display: inline-block;
+    background-color: #21b121;
+    color:white;
+    padding: 20px;
+    margin: 5px;
+    width: 200px;
+  }
+  li  span.category {
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    display: block;
+    text-align: center;
+  }
+  li span.value {
+    font-weight: 900;
+    display: block;
+    text-align: center;
+  }
